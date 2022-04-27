@@ -1,0 +1,26 @@
+.container {
+    /*display: flex;*/
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10rem
+}
+
+.image {
+    width: 20%;
+    min-width: 20%;
+}
+
+.quote {
+    margin: auto;
+    padding: 0 2rem;
+    text-align: center;
+    font-family: Garamond, cursive;
+    /*font-style: italic;*/
+}
+
+/*.item:nth-child(2n) {*/
+/*    margin-left: 10%*/
+/*}*/

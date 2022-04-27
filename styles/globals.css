@@ -1,5 +1,14 @@
+:root {
+  font-size: 1.1vw;
+  background-color: #F2F2F2;
+  --bg-primary: #73695D;
+  --bg-secondary: #F2DCC2;
+}
+
+
 html,
 body {
+  overscroll-behavior-y: none;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,

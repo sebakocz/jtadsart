@@ -1,0 +1,35 @@
+.main {
+    margin-top: 40vw;
+}
+
+.backgroundShape {
+    width: 80%;
+    height: 10vw;
+    background-color: var(--bg-primary);
+    margin: 0 auto;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 100%, 0% 100%);
+}
+
+.personaIcon {
+    width: 15vw;
+    position: relative;
+    margin: 1rem auto;
+    z-index: 9;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.personaIconBackground {
+    width: 17.5vw;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -10vw);
+    z-index: 7;
+    background-color: var(--bg-secondary);
+    clip-path: circle(50% at 50% 50%);
+}
+
+.text {
+    margin: 0 auto 10rem;
+    text-align: center;
+}

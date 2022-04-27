@@ -1,0 +1,7 @@
+.backgroundShape {
+    width: 80%;
+    height: 10vw;
+    background-color: var(--bg-primary);
+    margin: 0 auto;
+    clip-path: polygon(0% 0%, 100% 0%, 70% 100%, 30% 100%);
+}
